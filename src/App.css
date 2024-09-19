@@ -1,0 +1,60 @@
+.taskmanager{
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     margin-top: 100px;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+button{
+  font-size:1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color:white;
+  border:none;
+  border-radius: 5px;
+  cursor:pointer;
+  transition: background-color 0.5 ease;
+}
+
+.add-but{
+  background-color: green;
+}
+.delete-but{
+  background-color: red;
+}
+.up-but{
+  background-color: blueviolet;
+}
+.down-but{
+  background-color: rgb(133, 28, 232);
+}
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border:2px solid hsl(0, 0%, 80%);
+  color:black;
+}
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding:15px;
+  background-color: azure;
+  border:3px solid hsla(0 ,0%,85%,0.75);
+  display: flex;
+  align-items: center;
+}
+.text{
+  flex: 1;
+}
+.delete-but , .down-but , .up-but{
+
+  padding: 8px 12px;
+  font-size: 1.4 rem;
+  margin-left: 10px;
+}
